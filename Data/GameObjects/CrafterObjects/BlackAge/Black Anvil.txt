@@ -1,0 +1,82 @@
+﻿
+GameObjects
+{
+	PlaceableObject
+	{
+		Black Anvil
+		{
+			Tag = "BronzeAge"
+
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/CraftingStation.lua"
+				class = "CraftingStation"
+
+				arguments
+				{
+					pickupDelay = 3.25
+					pickupHeavy = 1
+					encumbrance = 15.0
+
+					dataMetricCategory = "Table"
+					UBPcraft = 4
+					LBPcraft = 4
+					XPcraft = 8
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Refined/stoneanvil.obj"
+
+				Diffuse
+				{
+					0 = "Models/PlaceableObjects/Refined/blackanvil_diff.tga"
+					1 = "Models/PlaceableObjects/Refined/sandcastm_diff.tga"
+				}
+				Normal
+				{
+					0 = "Models/PlaceableObjects/Refined/stoneanvil_norm.tga"
+					1 = "Models/PlaceableObjects/Refined/sandcastm_norm.tga"
+				}
+			}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 80.0
+						convex = 0
+						material = "WOOD"
+					}
+				}
+
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+
+			Placeable
+			{
+				name = "Black Anvil"
+				icon = "Black_Anvil"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Table"
+				tier = 3
+				resource = 1
+				placeWithNoPhysics = 1
+
+				survivalFaceCamera = 1
+				survivalRotOffset = [0.0, 1.0, 0.0, 90.0]
+
+				placementSound = "StonePlace"
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+{
+	FX
+	{
+		BlackRock Fire Emitter
+		{
+			Emitter
+			{
+				type = "Fluid"
+				endless
+
+				BlackRockGlow_01
+				{
+					rate = 3
+					oscillation = 100
+					start = 0
+					stop = 1
+					velocity = <0.0f, 0.5f, 0.0f>
+					velocityVariance = <0.0f, 0.25f, 0.0f>
+					rotation = 0
+					rotationVariance = 360
+					type = "point"
+				}
+				BlackRockGlow_02
+				{
+					rate = 3
+					oscillation = 100
+					start = 0
+					stop = 1
+					velocity = <0.0f, 0.5f, 0.0f>
+					velocityVariance = <0.0f, 0.25f, 0.0f>
+					rotation = 0
+					rotationVariance = 360
+					type = "point"
+				}
+
+				BlackRockFlame_01
+				{
+					rate = 5
+					oscillation = 1
+					start = 0
+					stop = 1
+					velocity = <0.0f, 0.75f, 0.0f>
+					velocityVariance = <0.05f, 0.5f, 0.05f>
+					rotation = 0
+					rotationVariance = 360
+					type = "point"
+				}
+				BlackRockFlame_02
+				{
+					rate = 5
+					oscillation = 1
+					start = 0
+					stop = 1
+					velocity = <0.0f, 0.75f, 0.0f>
+					velocityVariance = <0.05f, 0.5f, 0.05f>
+					rotation = 0
+					rotationVariance = -360
+					type = "point"
+				}
+				BlackRockFlame_03
+				{
+					rate = 5
+					oscillation = 1
+					start = 0
+					stop = 1
+					velocity = <0.0f, 0.75f, 0.0f>
+					velocityVariance = <0.05f, 0.5f, 0.05f>
+					rotation = 0
+					rotationVariance = -360
+					type = "point"
+				}
+			}
+			Transform
+			{
+			}
+		}
+	}
+}

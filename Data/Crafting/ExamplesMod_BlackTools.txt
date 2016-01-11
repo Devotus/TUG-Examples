@@ -1,0 +1,435 @@
+Recipes
+{
+	Black Hammer Recipe
+	{
+		Script = "Scripts/Recipes/ModularRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Hammer"
+			
+			#Craft times are below
+
+			Components
+			{
+				Head
+				{
+					archetype = "Black Hammer Head"
+					attachpoint = "head"
+					default = "Black Hammer Head"
+					ConnectTo
+					{
+						component = "Handle"
+						attachpoint = "head"
+					}
+				}
+				Handle
+				{
+					archetype = "Wood Handle"
+					default = "Hardened Wood Handle"
+					useAsHandAtch = 1
+				}
+				Wrap
+				{
+					archetype = "Leather Wrap"
+					default = "Leather Strips"
+					proxy = "Leather Wrap Proxy"
+					attachpoint = "wrap"
+					ConnectTo
+					{
+						component = "Handle"
+						attachpoint = "head"
+					}
+				}
+			}
+			Results
+			{
+				"Black Hammer" = 1
+			}
+			Crafting Stations
+			{
+				Artisan Workbench
+				{
+					craftTime = 6.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has crafted one of these
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Hammer Head"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Axe Recipe
+	{
+		Script = "Scripts/Recipes/ModularRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Axe"
+			
+			#Craft times are below
+
+			Components
+			{
+				Head
+				{
+					archetype = "Black Axe Head"
+					attachpoint = "handle"
+					default = "Black Axe Head"
+					ConnectTo
+					{
+						component = "Handle"
+						attachpoint = "head"
+					}
+				}
+				Handle
+				{
+					archetype = "Wood Handle"
+					default = "Hardened Wood Handle"
+					useAsHandAtch = 1
+				}
+				Wrap
+				{
+					archetype = "Leather Wrap"
+					default = "Leather Strips"
+					proxy = "Leather Wrap Proxy"
+					attachpoint = "wrap"
+					ConnectTo
+					{
+						component = "Handle"
+						attachpoint = "head"
+					}
+				}
+			}
+			Results
+			{
+				"Black Axe" = 1
+			}
+			Crafting Stations
+			{
+				Artisan Workbench
+				{
+					craftTime = 6.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has crafted one of these
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Axe Head"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Pick Recipe
+	{
+		Script = "Scripts/Recipes/ModularRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Pick"
+			
+			#Craft times are below
+
+			Components
+			{
+				Head
+				{
+					archetype = "Black Pick Head"
+					attachpoint = "head"
+					default = "Black Pick Head"
+					ConnectTo
+					{
+						component = "Handle"
+						attachpoint = "head"
+					}
+				}
+				Handle
+				{
+					archetype = "Wood Handle"
+					default = "Hardened Wood Handle"
+					useAsHandAtch = 1
+				}
+				Wrap
+				{
+					archetype = "Leather Wrap"
+					default = "Leather Strips"
+					proxy = "Leather Wrap Proxy"
+					attachpoint = "wrap"
+					ConnectTo
+					{
+						component = "Handle"
+						attachpoint = "head"
+					}
+				}
+			}
+			Results
+			{
+				"Black Pick" = 1
+			}
+			Crafting Stations
+			{
+				Artisan Workbench
+				{
+					craftTime = 6.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has crafted one of these
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Pick Head"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Knife Recipe
+	{
+		Script = "Scripts/Recipes/ModularRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Knife"
+			
+			#Craft times are below
+
+			Components
+			{
+				Head
+				{
+					archetype = "Black Knife Blade"
+					attachpoint = "head"
+					default = "Black Knife Blade"
+					ConnectTo
+					{
+						component = "Handle"
+						attachpoint = "head"
+					}
+				}
+				Handle
+				{
+					archetype = "Wood Handle"
+					default = "Hardened Wood Handle"
+					useAsHandAtch = 1
+				}
+				Wrap
+				{
+					archetype = "Leather Wrap"
+					default = "Leather Strips"
+					proxy = "Leather Wrap Proxy"
+					attachpoint = "wrap"
+					ConnectTo
+					{
+						component = "Handle"
+						attachpoint = "head"
+					}
+				}
+			}
+			Results
+			{
+				"Black Knife" = 1
+			}
+			Crafting Stations
+			{
+				Artisan Workbench
+				{
+					craftTime = 6.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has crafted one of these
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Knife Blade"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Hoe Recipe
+	{
+		Script = "Scripts/Recipes/ModularRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Hoe"
+			
+			#Craft times are below
+
+			Components
+			{
+				Head
+				{
+					archetype = "Black Hoe Head"
+					attachpoint = "head"
+					default = "Black Hoe Head"
+					ConnectTo
+					{
+						component = "Handle"
+						attachpoint = "head"
+					}
+				}
+				Handle
+				{
+					archetype = "Modular Wood Shaft"
+					default = "Hardened Wood Shaft"
+					useAsHandAtch = 1
+				}
+				Wrap
+				{
+					archetype = "Leather Wrap"
+					default = "Leather Strips"
+					proxy = "Leather Wrap Proxy"
+					attachpoint = "wrap"
+					ConnectTo
+					{
+						component = "Handle"
+						attachpoint = "head"
+					}
+				}
+			}
+			Results
+			{
+				"Black Hoe" = 1
+			}
+			Crafting Stations
+			{
+				Artisan Workbench
+				{
+					craftTime = 6.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has crafted one of these
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Hoe Head"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Shovel Recipe
+	{
+		Script = "Scripts/Recipes/ModularRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Shovel"
+			
+			#Craft times are below
+
+			Components
+			{
+				Head
+				{
+					archetype = "Black Shovel Head"
+					attachpoint = "head"
+					default = "Black Shovel Head"
+					ConnectTo
+					{
+						component = "Handle"
+						attachpoint = "head"
+					}
+				}
+				Handle
+				{
+					archetype = "Modular Wood Shaft"
+					default = "Hardened Wood Shaft"
+					useAsHandAtch = 1
+				}
+				Wrap
+				{
+					archetype = "Leather Wrap"
+					default = "Leather Strips"
+					proxy = "Leather Wrap Proxy"
+					attachpoint = "wrap"
+					ConnectTo
+					{
+						component = "Handle"
+						attachpoint = "head"
+					}
+				}
+			}
+			Results
+			{
+				"Black Shovel" = 1
+			}
+			Crafting Stations
+			{
+				Artisan Workbench
+				{
+					craftTime = 6.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has crafted one of these
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Shovel Head"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}

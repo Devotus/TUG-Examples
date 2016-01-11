@@ -1,0 +1,43 @@
+﻿{
+	"type": "EffectGroup",
+	"name": "Slingshot:Ruby_OnContact",
+	
+	"effects": [
+		{
+			"effectScript": "HandlerStop"
+		},
+		{
+			"effectScript": "RadiusEffect",
+			"radius": 4,
+			"callback": [
+				{
+					"effectScript": "TargetHeal",
+					"breakdown": true,
+					"incorrectTierCap": 100,
+					"playerHeal": 20
+				}
+			]
+		},
+		{
+			"effectScript": "HandlerEffect",
+			"callback": [
+				{
+					"effectScript": "TargetPlayEmitter",
+					"name": "Slingshot Ruby Explosion Emitter"
+				},
+				{
+					"effectScript": "TargetPlaySound",
+					"name": "FireballExplosion",
+					"minDist": 10,
+					"maxDist": 100
+				}
+			]
+		},
+		{
+			"effectScript": "PlayBreakEmitter"
+		},
+		{
+			"effectScript": "Remove"
+		}
+	]
+}

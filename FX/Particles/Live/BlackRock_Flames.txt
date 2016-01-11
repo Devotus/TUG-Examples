@@ -1,0 +1,73 @@
+﻿
+Particles
+{
+	BlackRockFlame_01
+	{
+		textureName = "FX/Textures/BlackRock_flame01.tga"
+		textureSize = 256
+		elasticity = 0.0
+		addColor = <0.0, 0.0, 0.0>
+		multiplyColor = <1.0, 1.0, 1.0>
+		rotationSpeed = 45.0
+		scaling = <2.0,2.0,2.0>
+		scalingSpeed = <0.0, 0.0, 0.0>
+		scalingType = "multiply"
+		scalingVariance = 0.5
+		acceleration = <0.0, 0, 0.0>
+		maxAge = 0.1
+		ageVariance = 0.05
+		ageToStartFading = 0.04
+		ageToStartShrinking = 0.025
+		fadeInAge = 0.01
+		growInAge = 0.0
+		blendType = "additive"
+		speedCap = 1.8
+		orientation = "locked"
+	}
+	BlackRockFlame_02
+	{
+		textureName = "FX/Textures/BlackRock_flame02.tga"
+		textureSize = 256
+		elasticity = 0.0
+		addColor = <0.0, 0.0, 0.0>
+		multiplyColor = <1.0, 1.0, 1.0>
+		rotationSpeed = -45.0
+		scaling = <2.0,2.0,2.0>
+		scalingSpeed = <0.0, 0.0, 0.0>
+		scalingType = "multiply"
+		scalingVariance = 0.5
+		acceleration = <0.0, 0, 0.0>
+		maxAge = 0.1
+		ageVariance = 0.05
+		ageToStartFading = 0.04
+		ageToStartShrinking = 0.025
+		fadeInAge = 0.01
+		growInAge = 0.0
+		blendType = "additive"
+		speedCap = 1.8
+		orientation = "locked"
+	}
+	BlackRockFlame_03
+	{
+		textureName = "FX/Textures/BlackRock_flame03.tga"
+		textureSize = 256
+		elasticity = 0.0
+		addColor = <0.0, 0.0, 0.0>
+		multiplyColor = <1.0, 1.0, 1.0>
+		rotationSpeed = -45.0
+		scaling = <2.0,2.0,2.0>
+		scalingSpeed = <0.0, 0.0, 0.0>
+		scalingType = "multiply"
+		scalingVariance = 0.5
+		acceleration = <0.0, 0, 0.0>
+		maxAge = 0.1
+		ageVariance = 0.05
+		ageToStartFading = 0.04
+		ageToStartShrinking = 0.025
+		fadeInAge = 0.01
+		growInAge = 0.0
+		blendType = "additive"
+		speedCap = 1.8
+		orientation = "locked"
+	}
+}

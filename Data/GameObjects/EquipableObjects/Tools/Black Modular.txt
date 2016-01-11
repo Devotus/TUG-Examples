@@ -1,0 +1,330 @@
+{
+	Modular
+	{
+		Black Axe
+		{
+			Script
+			{
+				file = "Scripts/Objects/ModularAxe.lua"
+				class = "ModularAxe"
+				
+				arguments
+				{
+					recipe = "Black Axe Recipe"
+				
+					#Break/Creak info
+					CreakingSound = "ItemCreak"
+					BreakSound = "ItemBreak"
+					swingtransition = "Hswing"
+
+					ModificationInput
+					{
+						"modificationType" = "Remove"
+						"dimensions" = <1.0,1.0,1.0>
+						"radius" = 1.0
+						"brushType" = "Cube"
+					}
+
+					dataMetricCategory = "Tool"
+					UBPcraft = 8
+					LBPcraft = 6
+					XPcraft = 14
+				}
+			}
+			Physics
+			{
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Equipable
+			{
+				name = "Black Axe"
+				icon = "blackAxe"
+				minScale = 1.0
+				maxScale = 1.0
+				
+				category = "Axe"
+				tier = 3
+				resource = 1
+				maxStackCount = 1.0
+
+
+				placementSound = "StonePlace"
+				miningEmitter = "Strike Glint Emitter"
+				miningEmitterAlt = "Strike EmbersQuarter Emitter"
+			}
+		}
+		Black Hammer
+		{
+			Script
+			{
+				file = "Scripts/Objects/ModularHammer.lua"
+				class = "ModularHammer"
+				
+				arguments
+				{
+					recipe = "Black Hammer Recipe"
+					
+					#Break/Creak info
+					CreakingSound = "ItemCreak"
+					BreakSound = "ItemBreak"
+					swingtransition = "Vswing"
+
+					ModificationInput
+					{
+						"modificationType" = "Remove"
+						"dimensions" = <1.0,1.0,1.0>
+						"radius" = 1.0
+						"brushType" = "Cube"
+					}
+
+					dataMetricCategory = "Tool"
+					UBPcraft = 8
+					LBPcraft = 6
+					XPcraft = 14
+				}
+			}
+			Physics
+			{
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Equipable
+			{
+				name = "Black Hammer"
+				minScale = 1.0
+				maxScale = 1.0
+				icon = "blackHammer"
+				
+				category = "Hammer"
+				tier = 3
+				resource = 1
+				maxStackCount = 1.0
+
+
+				placementSound = "StonePlace"
+				miningEmitter = "Strike Glint Emitter"
+				miningEmitterAlt = "Strike EmbersQuarter Emitter"
+			}
+		}
+		Black Pick
+		{
+			Script
+			{
+				file = "Scripts/Objects/ModularPick.lua"
+				class = "ModularPick"
+				
+				arguments
+				{
+					recipe = "Black Pick Recipe"
+					
+					#Break/Creak info
+					CreakingSound = "ItemCreak"
+					BreakSound = "ItemBreak"
+					swingtransition = "Vswing"
+					
+					ModificationInput
+					{
+						"modificationType" = "Remove"
+						"dimensions" = <1.0,1.0,1.0>
+						"radius" = 1.0
+						"brushType" = "Rounded Cube"
+					}
+
+					dataMetricCategory = "Tool"
+					UBPcraft = 8
+					LBPcraft = 6
+					XPcraft = 14
+				}
+			}
+			Physics
+			{
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Equipable
+			{
+				name = "Black Pick"
+				icon = "blackPick"
+				minScale = 1.0
+				maxScale = 1.0
+				
+				category = "Pick"
+				tier = 3
+				resource = 1
+				maxStackCount = 1.0
+
+
+				placementSound = "StonePlace"
+				miningEmitter = "Strike Glint Emitter"
+				miningEmitterAlt = "Strike EmbersQuarter Emitter"
+			}
+		}
+		Black Knife
+		{
+			Script
+			{
+				file = "Scripts/Objects/ModularKnife.lua"
+				class = "ModularKnife"
+				
+				arguments
+				{
+					recipe = "Black Knife Recipe"
+					
+					#Break/Creak info
+					CreakingSound = "ItemCreak"
+					BreakSound = "ItemBreak"
+					swingtransition = "Skin"
+
+					dataMetricCategory = "Tool"
+					UBPcraft = 6
+					LBPcraft = 8
+					XPcraft = 14
+				}
+			}
+			Physics
+			{
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Equipable
+			{
+				name = "Black Knife"
+				icon = "blackKnife"
+				minScale = 1.0
+				maxScale = 1.0
+				
+				category = "Knife"
+				tier = 3
+				resource = 1
+				maxStackCount = 1.0
+
+
+				placementSound = "StonePlace"
+				miningEmitter = "Strike Glint Emitter"
+				miningEmitterAlt = "Strike EmbersQuarter Emitter"
+				handleType = "one"
+			}
+		}
+		Black Shovel
+		{
+			Script
+			{
+				file = "Scripts/Objects/ModularShovel.lua"
+				class = "ModularShovel"
+				
+				arguments
+				{
+					recipe = "Black Shovel Recipe"
+					
+					#Break/Creak info
+					CreakingSound = "ItemCreak"
+					BreakSound = "ItemBreak"
+					swingtransition = "Shovel"
+
+					ModificationInput
+					{
+						"modificationType" = "Remove"
+						"dimensions" = <1.0,1.0,1.0>
+						"radius" = 1.0
+						"brushType" = "Sphere"
+					}
+
+					dataMetricCategory = "Tool"
+					UBPcraft = 8
+					LBPcraft = 6
+					XPcraft = 14
+				}
+			}
+			Physics
+			{
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Equipable
+			{
+				name = "Black Shovel"
+				icon = "blackShovel"
+				minScale = 1.0
+				maxScale = 1.0
+				
+				category = "Shovel"
+				tier = 3
+				resource = 1
+				maxStackCount = 1.0
+
+
+				placementSound = "StonePlace"
+				miningEmitter = "Strike Glint Emitter"
+				miningEmitterAlt = "Strike EmbersQuarter Emitter"
+				handleType = "TwoLeft"
+			}
+		}
+		Black Hoe
+		{
+			Script
+			{
+				file = "Scripts/Objects/ModularHoe.lua"
+				class = "ModularHoe"
+				
+				arguments
+				{
+					recipe = "Black Hoe Recipe"
+					
+					#Break/Creak info
+					CreakingSound = "ItemCreak"
+					BreakSound = "ItemBreak"
+					swingtransition = "Hoe"
+
+					ModificationInput
+					{
+						"modificationType" = "Swap"
+						"dimensions" = <1.0,1.0,1.0>
+						"radius" = 1.0
+						"brushType" = "Cube"
+					}
+
+					dataMetricCategory = "Tool"
+					UBPcraft = 8
+					LBPcraft = 6
+					XPcraft = 14
+				}
+			}
+			Physics
+			{
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Equipable
+			{
+				name = "Black Hoe"
+				icon = "blackHoe"
+				minScale = 1.0
+				maxScale = 1.0
+				
+				category = "Hoe"
+				tier = 3
+				resource = 1
+				maxStackCount = 1.0
+
+
+				placementSound = "StonePlace"
+				miningEmitter = "Strike Glint Emitter"
+				miningEmitterAlt = "Strike EmbersQuarter Emitter"
+				handleType = "Two"
+			}
+		}
+	}
+}

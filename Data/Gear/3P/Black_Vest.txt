@@ -1,0 +1,23 @@
+
+{
+	Submeshes
+	{
+		Black_Vest
+		{
+			mesh = "Geo_Torso_LeafTopSkirt01"
+			Textures
+			{
+				Diffuse
+				{
+					0 = "Character/Gear/3P/Textures/BlackVest_diff.tga"
+					1 = "Character/Seed/3P/0Child/Male/Textures/Seedling_Body_diff.tga"
+				}
+				Normal
+				{
+					0 = "Character/Gear/3P/Textures/BlackVest_norm.tga"
+					1 = "Character/Seed/3P/0Child/Male/Textures/Seedling_Body_norm.tga"
+				}
+			}
+		}
+	}
+}

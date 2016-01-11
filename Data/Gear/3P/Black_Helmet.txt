@@ -1,0 +1,15 @@
+
+{
+	Submeshes
+	{
+		Black_Helmet
+		{
+			mesh = "Geo_Helmet_PumpkinB01"
+			Textures
+			{
+				Diffuse = "Character/Gear/3P/Textures/BlackHelmet_diff.tga"
+				Normal = "Character/Gear/3P/Textures/BlackHelmet_norm.tga"
+			}
+		}
+	}
+}

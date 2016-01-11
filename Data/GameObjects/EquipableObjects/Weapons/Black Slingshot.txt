@@ -1,0 +1,110 @@
+GameObjects
+{
+	Equipable
+	{
+		Black Slingshot
+		{
+			Tag = "Weapons"
+			
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/Weapons/RangedWeapon.lua"
+				class = "RangedWeapon"
+			
+				arguments
+				{
+					incorrectTierCap = 0
+					encumbrance = 0.85
+					
+					ammoUsed = "magicStone"
+					forceModifier = 1.0
+					damageModifier = 1.0
+					
+					#Break/Creak info
+					CriticalHitPoints = 8.0
+					CreakingSound = "ItemCreak"
+					BreakSound = "ItemBreak"
+
+					dataMetricCategory = "Weapon"
+					UBPcraft = 4
+					LBPcraft = 5
+					XPcraft = 9
+
+					swinganimations
+					{
+						"ItemHSwing"
+					}
+
+					Affects
+					{
+						"Flesh" = 3
+					}
+				}
+			}
+			StaticGraphics
+			{
+				model = "Character/Weapons/slingshot.obj"
+				dontCastShadows = 1.0
+			
+				Diffuse
+				{
+					0 = "Character/Weapons/blackSlingshot_diff.tga"
+				}
+				Normal
+				{
+					0 = "Character/Weapons/slingshot_norm.tga"
+				}
+				Glow
+				{
+					0 = "Character/Weapons/blackSlingshot_glow.tga"
+				}
+			}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 10.0
+						convex = 0
+						material = "WOOD"
+					}
+				}
+
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			
+			Equipable
+			{
+				name = "Black Slingshot"
+				icon = "Black_Slingshot"
+				minScale = 1.0
+				maxScale = 1.0
+				
+				category = "Weapon"
+				tier = 3
+				resource = 1
+				durability = 480.0
+				durabilityLossOnCorrect = 3.0
+				weaponRange = 7.0
+				maxStackCount = 1.0
+
+				placementSound = "GrassPlace"
+				miningEmitter = "Strike Glint Emitter"
+				
+				handleType = "TwoLeft"
+				
+				Equipment Slots
+				{
+					Tool
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+﻿{
+	"type": "EffectGroup",
+	"name": "Slingshot:Amethyst_OnContact",
+	
+	"effects": [
+		{
+			"effectScript": "HandlerStop"
+		},
+		{
+			"effectScript": "RadiusEffect",
+			"radius": 4,
+			"callback": [
+				{
+					"effectScript": "TargetDamage",
+					"breakdown": true,
+					"incorrectTierCap": 1,
+					"Affects": { 
+						"Flesh": 3
+					},
+					"gameObjectDamage": 20,
+					"characterDamage": 15,
+					"playerDamage": 15
+				}
+			]
+		},
+		{
+			"effectScript": "HandlerEffect",
+			"callback": [
+				{
+					"effectScript": "TargetPlayEmitter",
+					"name": "Slingshot Amethyst Explosion Emitter"
+				},
+				{
+					"effectScript": "TargetPlaySound",
+					"name": "FireballExplosion",
+					"minDist": 10,
+					"maxDist": 100
+				}
+			]
+		},
+		{
+			"effectScript": "PlayBreakEmitter"
+		},
+		{
+			"effectScript": "Remove"
+		}
+	]
+}

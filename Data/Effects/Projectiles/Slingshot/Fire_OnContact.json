@@ -1,0 +1,61 @@
+﻿{
+	"type": "EffectGroup",
+	"name": "Slingshot:Fire_OnContact",
+	
+	"effects": [
+		{
+			"effectScript": "HandlerStop"
+		},
+		{
+			"effectScript": "RadiusEffect",
+			"radius": 4,
+			"callback": [
+				{
+					"effectScript": "TargetDamage",
+					"breakdown": true,
+					"incorrectTierCap": 1,
+					"Affects": { 
+						"Flesh": 3
+					},
+					"gameObjectDamage": 20,
+					"characterDamage": 10,
+					"playerDamage": 10
+				},
+				{
+					"effectScript": "TargetBuff",
+					"class": "FireDebuff",
+					"Data": { 
+						"duration": 2,
+						"damage": 4.0,
+						"ticksPerSecond": 2,
+						"stacks": false
+					},
+					"players": true,
+					"characters": true,
+					"affectDead": false
+				}
+			]
+		},
+		{
+			"effectScript": "HandlerEffect",
+			"callback": [
+				{
+					"effectScript": "TargetPlayEmitter",
+					"name": "Slingshot Fire Explosion Emitter"
+				},
+				{
+					"effectScript": "TargetPlaySound",
+					"name": "FireballExplosion",
+					"minDist": 10,
+					"maxDist": 100
+				}
+			]
+		},
+		{
+			"effectScript": "PlayBreakEmitter"
+		},
+		{
+			"effectScript": "Remove"
+		}
+	]
+}

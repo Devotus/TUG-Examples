@@ -1,0 +1,85 @@
+﻿
+GameObjects
+{
+	PlaceableObject
+	{
+		Black Axe Head
+		{
+			Tag = "Refined"
+			
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/PlaceableObject.lua"
+				class = "PlaceableObject"
+				
+				arguments
+				{
+					encumbrance = 0.6
+					durability = 1920
+					damageBonus = 3
+					headType = 25
+					incorrectTierCap = 0
+					
+					dataMetricCategory = "Refined Black Head"
+					UBPcraft = 5
+					LBPcraft = 3
+					XPcraft = 8
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Refined/blackAxeHead.obj"
+				dontCastShadows = 1.0
+				hideMesh = "wrap"
+				
+				Diffuse
+				{
+					"head" = "Character/Tools/blackAxe_New_diff.tga"
+					"head_used" = "Character/Tools/blackAxe_Used_diff.tga"
+					"head_poor" = "Character/Tools/blackAxe_Poor_diff.tga"
+				}
+				Normal
+				{
+					"head" = "Character/Tools/blackAxe_New_norm.tga"
+					"head_used" = "Character/Tools/blackAxe_Used_norm.tga"
+					"head_poor" = "Character/Tools/blackAxe_Poor_norm.tga"
+				}
+			}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 10.0
+						convex = 1
+						decompose = 0
+						mesh = "Models/PlaceableObjects/Refined/blackAxeHead.obj"
+						material = "STONE"
+					}
+				}
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Placeable
+			{
+				name = "Black Axe Head"
+				icon = "blackAxeHead"
+				minScale = 1.0
+				maxScale = 1.0
+				
+				category = "Metal"
+				tier = 3
+				resource = 1
+				maxStackCount = 10.0
+
+				placementSound = "StonePlace"
+			}
+		}
+	}
+}

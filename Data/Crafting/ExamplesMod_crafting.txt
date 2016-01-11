@@ -1,0 +1,187 @@
+Recipes
+{
+	Black Furnace Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Furnace"
+			
+			craftTime = 8.0
+			priority = 2.0
+			energyCost = 50.0
+			
+			Components
+			{
+				Stone Furnace
+				{
+					"Stone Furnace" = 1
+				}
+				Latten
+				{
+					"Latten" = 4
+				}
+				Black Rock
+				{
+					"Black Rock" = 1
+				}
+				Firestone Shard
+				{
+					"Firestone Shard" = 1
+				}
+			}
+			Results
+			{
+				"Black Furnace" = 1
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Collected
+					{
+						1
+						{
+							name = "Black Rock"
+							count = 1
+						}
+						2
+						{
+							name = "Stone Furnace"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	Black Latten Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Smelting... "
+			craftingDisplayName = "Black Latten"
+
+			#Craft times are below
+			#Energy costs are below
+			priority = 1.0
+			
+			Components
+			{
+				First Ore
+				{
+					"Copper Ore" = 3
+				}
+				Second Ore
+				{
+					"Tin Ore" = 3
+				}
+			}
+			Results
+			{
+				"Black Latten" = 1
+			}
+			Failed Results
+			{
+				"Mad Mushroom Man" = 1
+			}
+			Crafting Stations
+			{
+				Black Furnace
+				{
+					craftTime = 10.0
+					energyCost = 50.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Collected
+					{
+						1
+						{
+							name = "Latten"
+							count = 1
+						}
+						2
+						{
+							name = "Black Rock"
+							count = 1
+						}
+					}
+					Crafted
+					{
+						1
+						{
+							name = "Black Furnace"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	Black Anvil Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Anvil"
+			
+			craftTime = 8.0
+			priority = 2.0
+			
+			energyCost = 50.0
+			
+			Components
+			{
+				Part1
+				{
+					"Flat Rock" = 1
+				}
+				Part2
+				{
+					"Black Latten" = 4
+				}
+			}
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 2
+			}
+			Results
+			{
+				"Black Anvil" = 1
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Latten"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}

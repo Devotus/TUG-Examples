@@ -1,0 +1,418 @@
+Gear Recipes
+{
+	// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Gear ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	
+	// ----------------------------------------------------------- Crude Gear
+	Black Helmet Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Helmet"
+
+			#Craft times are below
+			priority = 3.0
+			
+			Components
+			{
+				Helmet
+				{
+					"Pumpkin Skull Cap" = 1
+					"Pumpkin Helmet" = 1
+				}
+				Metal
+				{
+					"Black Latten" = 1
+				}
+			}
+			Results
+			{
+				"Black Helmet" = 1
+			}
+			Crafting Stations
+			{
+				Artisan Workbench
+				{
+					craftTime = 10.0
+					energyCost = 20.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Collected
+					{
+						1
+						{
+							name = "Black Latten"
+							count = 1
+						}
+						2
+						{
+							name = "Orange Pumpkin"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Vest Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Vest"
+
+			#Craft times are below
+			priority = 2.0
+			
+			Components
+			{
+				Vest
+				{
+					"Leaf Vest" = 1
+					"Hide Vest" = 1
+					"Goat Skins" = 1
+				}
+				Metal
+				{
+					"Black Latten" = 1
+				}
+			}
+			Results
+			{
+				"Black Vest" = 1
+			}
+			Crafting Stations
+			{
+				Artisan Workbench
+				{
+					craftTime = 10.0
+					energyCost = 20.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Collected
+					{
+						1
+						{
+							name = "Black Latten"
+							count = 1
+						}
+						2
+						{
+							name = "Leaf Vest"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Kneepads Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Kneepads"
+
+			#Craft times are below
+			priority = 2.0
+			
+			Components
+			{
+				Kneepads
+				{
+					"Wood Kneepads" = 1
+				}
+				Metal
+				{
+					"Black Latten" = 1
+				}
+			}
+			Results
+			{
+				"Black Kneepads" = 1
+			}
+			Crafting Stations
+			{
+				Artisan Workbench
+				{
+					craftTime = 10.0
+					energyCost = 20.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Collected
+					{
+						1
+						{
+							name = "Black Latten"
+							count = 1
+						}
+						3
+						{
+							name = "Wood Kneepads"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	// ----------------------------------------------------------------- Bronze Gear
+	Black Cap Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Cap"
+
+			#Craft times are below
+			priority = 1.0
+						
+			Components
+			{
+				Head
+				{
+					"Bronze Skull Cap" = 1
+				}
+				Metal
+				{
+					"Black Latten" = 1
+				}
+			}
+			Results
+			{
+				"Black Cap" = 1
+			}
+			Crafting Stations
+			{
+				Artisan Workbench
+				{
+					spawnOffsetOverride = <0.0, 2.0, 0.0>
+					craftTime = 10.0
+					energyCost = 20.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has crafted one of these
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Bronze Skull Cap"
+							count = 1
+						}
+						2
+						{
+							name = "Black Latten"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Shirt Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Shirt"
+
+			#Craft times are below
+			priority = 2.0
+						
+			Components
+			{
+				Shirt
+				{
+					"Wool Shirt" = 1
+				}
+				Metal
+				{
+					"Black Latten" = 1
+				}
+			}
+			Results
+			{
+				"Black Shirt" = 1
+			}
+			Crafting Stations
+			{
+				Loom
+				{
+					craftTime = 6.0
+					energyCost = 20.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has crafted one of these
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Wool Shirt"
+							count = 1
+						}
+						2
+						{
+							name = "Black Latten"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Pants Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Pants"
+
+			#Craft times are below
+			priority = 3.0
+						
+			Components
+			{
+				Fabric
+				{
+					"Wool Breeches" = 1
+				}
+				Metal
+				{
+					"Black Latten" = 1
+				}
+			}
+			Results
+			{
+				"Black Pants" = 1
+			}
+			Crafting Stations
+			{
+				Loom
+				{
+					craftTime = 6.0
+					energyCost = 20.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has crafted one of these
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Wool Breeches"
+							count = 1
+						}
+						2
+						{
+							name = "Black Latten"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Tunic Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Tunic"
+
+			#Craft times are below
+			priority = 3.0
+						
+			Components
+			{
+				Fabric
+				{
+					"Linen Tunic" = 1
+				}
+				Metal
+				{
+					"Black Latten" = 1
+				}
+			}
+			Results
+			{
+				"Black Tunic" = 1
+			}
+			Crafting Stations
+			{
+				Loom
+				{
+					craftTime = 6.0
+					energyCost = 20.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has crafted one of these
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Linen Tunic"
+							count = 1
+						}
+						2
+						{
+							name = "Black Latten"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}

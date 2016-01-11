@@ -1,0 +1,61 @@
+{
+	FX
+	{
+		Slingshot Citrine Explosion Emitter
+		{
+			Emitter
+			{
+				burst
+				type = "Strike"
+				
+				Slingshot Citrine Explosion
+				{
+					rate = 64
+					oscillation = 1
+					start = 0
+					stop = 1
+					velocity = <0.0f, 0.0f, 0.0f>
+					velocityVariance = <9.3f, 9.4f, 9.3f>
+					rotation = 180
+					rotationVariance = 360
+					type = "spherical"
+					radius = 0.5
+					upVector = <0.0f, 1.0f, 0.0f>
+					randomizeAtSpawn
+				}
+			}
+			Transform
+			{
+			}
+		}
+		Slingshot Citrine Emitter
+		{
+			Emitter
+			{
+				type = "Fluid"
+				lifespan = 999999
+				endless
+				
+				Slingshot Citrine
+				{
+					rate = 10
+					rateVariance = 2
+					oscillation = 100
+					start = 0
+					stop = 1
+					velocity = <0.0f, 0.1f, 0.0f>
+					velocityVariance = <0.2f, 0.2f, 0.2f>
+					rotation = 0
+					rotationVariance = 180
+					type = "spherical"
+					radius = .05
+					emitFrom = "volume"
+					randomizeAtSpawn
+				}
+			}
+			Transform
+			{
+			}
+		}
+	}
+}

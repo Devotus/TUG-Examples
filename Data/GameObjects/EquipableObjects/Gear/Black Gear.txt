@@ -1,0 +1,799 @@
+GameObjects
+{
+	Equipable
+	{
+		Black Kneepads
+		{
+			Tag = "Gear"
+			
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/EquipableGear.lua"
+				class = "EquipableGear"
+				
+				arguments
+				{
+					category = "Gear"
+					slot = "Legs"
+					incorrectTierCap = 2
+					encumbrance = 0.9
+					equipSound = "WoodDig"
+
+					dataMetricCategory = "Legs"
+					UBPcraft = 3
+					LBPcraft = 3
+					XPcraft = 6
+
+					AllowedGrowthStates
+					{
+						"Child" = 1
+					}
+					
+					AppearenceRules
+					{
+						"Left Leg"
+						{
+							priority = 1.0
+							GrowthState
+							{
+								Child
+								{
+									submesh = "Geo_L_Leg_BlackKneepad01"
+								}
+								Teen
+								{
+									submesh = "default"
+								}
+							}
+						}
+						"Right Leg"
+						{
+							priority = 1.0
+							GrowthState
+							{
+								Child
+								{
+									submesh = "Geo_R_Leg_BlackKneepad01"
+								}
+								Teen
+								{
+									submesh = "default"
+								}
+							}
+						}
+					}
+				}
+			}
+			StaticGraphics
+			{
+				model = "Character\Armor\WoodKneepads.obj"
+				dontCastShadows = 1.0
+			
+				Diffuse
+				{
+					0 = "Character\Gear\3P\Textures\BlackKneepad_diff.tga"
+				}
+				Normal
+				{
+					0 = "Character\Gear\3P\Textures\BlackKneepad_norm.tga"
+				}
+			}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 10.0
+						convex = 0
+						material = "WOOD"
+					}
+				}
+
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+
+			Placeable
+			{
+				name = "Black Kneepads"
+				icon = "blackKneepads"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Gear"
+				tier = 2
+				durability = 480.0
+				maxStackCount = 1
+				resource = 1
+
+				placementSound = "GrassPlace"
+				removalSound = "GrassDig"
+				miningEmitter = "Strike Glint Emitter"
+				miningEmitterAlt = "Strike EmbersQuarter Emitter"
+
+				Equipment Slots
+				{
+					Tool
+				}
+			}
+		}
+		
+		
+		Black Helmet
+		{
+			Tag = "Gear"
+			
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/EquipableGear.lua"
+				class = "EquipableGear"
+		
+				arguments
+				{
+					category = "Gear"
+					slot = "Helmet"
+					incorrectTierCap = 2
+					encumbrance = 0.9
+					equipSound = "WoodDig"
+					
+					dataMetricCategory = "Helmet"
+					UBPcraft = 4
+					LBPcraft = 4
+					XPcraft = 8
+
+					swinganimations
+					{
+						"ItemVSwing"
+					}
+
+					AllowedGrowthStates
+					{
+						"Child" = 1
+					}
+					
+					AppearenceRules
+					{
+						"Helmet"
+						{
+							priority = 1.0
+							GrowthState
+							{
+								Child
+								{
+									submesh = "Black_Helmet"
+								}
+								Teen
+								{
+									submesh = "default"
+								}
+							}
+						}
+						"Hair"
+						{
+							priority = 1.0
+							GrowthState
+							{
+								Child
+								{
+									submesh = "hidden"
+								}
+								Teen
+								{
+									submesh = "default"
+								}
+							}
+						}
+					}
+				}
+			}
+			StaticGraphics
+			{
+				model = "Character/Armor/pumpkin_helmet_horns_grnd.obj"
+				dontCastShadows = 1.0
+				hideMesh = "wrap"
+				
+				Diffuse
+				{
+					0 = "Character/Gear/3P/Textures/BlackHelmet_diff.tga"
+				}
+				Normal
+				{
+					0 = "Character/Gear/3P/Textures/BlackHelmet_norm.tga"
+				}
+			}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 30.0
+						convex = 0
+						material = "WOOD"
+					}
+				}
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Placeable
+			{
+				name = "Black Helmet"
+				icon = "black_helmet"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Gear"
+				tier = 2
+				durability = 480.0
+				maxStackCount = 1
+				resource = 1
+
+				placementSound = "GrassPlace"
+				removalSound = "GrassDig"
+				miningEmitter = "Strike Glint Emitter"
+				miningEmitterAlt = "Strike EmbersQuarter Emitter"
+			
+				Equipment Slots
+				{
+					Tool
+				}
+			}
+		}
+		
+		Black Vest
+		{
+			Tag = "Gear"
+			
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/EquipableGear.lua"
+				class = "EquipableGear"
+				
+				arguments
+				{
+					category = "Gear"
+					slot = "Chest"
+					incorrectTierCap = 2
+					encumbrance = 0.9
+					equipSound = "GrassDig"
+
+					dataMetricCategory = "Chest"
+					UBPcraft = 3
+					LBPcraft = 3
+					XPcraft = 6
+
+					swinganimations
+					{
+						"ItemVSwing"
+					}
+
+					AllowedGrowthStates
+					{
+						"Child" = 1
+					}
+					
+					AppearenceRules
+					{
+						"Chest"
+						{
+							priority = 1.0
+							GrowthState
+							{
+								Child
+								{
+									submesh = "Black_Vest"
+								}
+								Teen
+								{
+									submesh = "default"
+								}
+							}
+						}
+					}
+				}
+			}
+			StaticGraphics
+			{
+				model = "Character\Armor\LeafSkirtTop.obj"
+				dontCastShadows = 1.0
+				
+				Diffuse
+				{
+					0 = "Character/Gear/3P/Textures/BlackVest_diff.tga"
+				}
+				Normal
+				{
+					0 = "Character/Gear/3P/Textures/BlackVest_norm.tga"
+				}
+			}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 10.0
+						convex = 0
+						material = "WOOD"
+					}
+				}
+
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+
+			Placeable
+			{
+				name = "Black Vest"
+				minScale = 1.0
+				maxScale = 1.0
+				icon = "BlackVest"
+
+				category = "Gear"
+				tier = 0
+				durability = 480.0
+				maxStackCount = 1
+				resource = 1
+
+				placementSound = "GrassPlace"
+				removalSound = "GrassDig"
+				miningEmitter = "Strike Glint Emitter"
+				miningEmitterAlt = "Strike EmbersQuarter Emitter"
+
+				Equipment Slots
+				{
+					Tool
+				}
+			}
+		}
+		
+		Black Pants
+		{
+			Tag = "Gear"
+			
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/EquipableGear.lua"
+				class = "EquipableGear"
+	
+				arguments
+				{
+					category = "Gear"
+					slot = "Legs"
+					incorrectTierCap = 2
+					encumbrance = 0.9
+					equipSound = "SandDig"
+
+					dataMetricCategory = "Legs"
+					UBPcraft = 6
+					LBPcraft = 8
+					XPcraft = 14
+					
+					AllowedGrowthStates
+					{
+						"Teen" = 1
+					}
+
+					AppearenceRules
+					{
+						"Hips"
+						{
+							priority = 1.0
+							GrowthState
+							{
+								Child
+								{
+									submesh = "default"
+								}
+								Teen
+								{
+									submesh = "Black_Pants"
+								}
+							}
+						}
+					}
+				}
+			}
+			StaticGraphics
+			{
+				model = "Character\Armor\TeenBronzePants.obj"
+				dontCastShadows = 1.0
+				
+				Diffuse
+				{
+					0 = "Character/Gear/3P/Textures/BlackPants_diff.tga"
+				}
+				Normal
+				{
+					0 = "Character/Gear/3P/Textures/BlackPants_norm.tga"
+				}
+			}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 10.0
+						convex = 0
+						material = "WOOD"
+					}
+				}
+
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Placeable
+			{
+				name = "Black Pants"
+				icon = "blackTeenPants"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Gear"
+				tier = 3
+				maxStackCount = 1
+				resource = 1
+				durability = 480.0
+
+				placementSound = "GrassPlace"
+				removalSound = "GrassDig"
+
+				Equipment Slots
+				{
+					Tool
+				}
+			}
+		}
+		
+		
+		Black Shirt
+		{
+			Tag = "Gear"
+			
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/EquipableGear.lua"
+				class = "EquipableGear"
+	
+				arguments
+				{
+					category = "Gear"
+					slot = "Chest"
+					incorrectTierCap = 2
+					encumbrance = 0.9
+					equipSound = "SandDig"
+
+					dataMetricCategory = "Chest"
+					UBPcraft = 8
+					LBPcraft = 6
+					XPcraft = 14
+					
+					AllowedGrowthStates
+					{
+						"Teen" = 1
+					}
+
+					AppearenceRules
+					{
+						"Chest"
+						{
+							priority = 1.0
+							GrowthState
+							{
+								Child
+								{
+									submesh = "default"
+								}
+								Teen
+								{
+									submesh = "Black_Shirt"
+								}
+							}
+						}
+					}
+				}
+			}
+			StaticGraphics
+			{
+				model = "Character\Armor\TeenBronzeShirt.obj"
+				dontCastShadows = 1.0
+				
+				Diffuse
+				{
+					0 = "Character/Gear/3P/Textures/BlackShirt_diff.tga"
+				}
+				Normal
+				{
+					0 = "Character/Gear/3P/Textures/BlackShirt_norm.tga"
+				}
+			}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 10.0
+						convex = 0
+						material = "WOOD"
+					}
+				}
+
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Placeable
+			{
+				name = "Black Shirt"
+				icon = "blackTeenShirt"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Gear"
+				tier = 3
+				maxStackCount = 1
+				resource = 1
+				durability = 480.0
+
+				placementSound = "GrassPlace"
+				removalSound = "GrassDig"
+
+				Equipment Slots
+				{
+					Tool
+				}
+			}
+		}
+		
+		Black Cap
+		{
+			Tag = "Gear"
+			
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/EquipableGear.lua"
+				class = "EquipableGear"
+		
+				arguments
+				{
+					category = "Gear"
+					slot = "Helmet"
+					incorrectTierCap = 2
+					encumbrance = 0.9
+					equipSound = "WoodDig"
+					
+					dataMetricCategory = "Helmet"
+					UBPcraft = 8
+					LBPcraft = 6
+					XPcraft = 14
+
+					AllowedGrowthStates
+					{
+						"Teen" = 1
+					}
+					
+					AppearenceRules
+					{
+						"Helmet"
+						{
+							priority = 1.0
+							GrowthState
+							{
+								Child
+								{
+									submesh = "default"
+								}
+								Teen
+								{
+									submesh = "Black_Cap"
+								}
+							}
+						}
+						"Hair"
+						{
+							priority = 1.0
+							GrowthState
+							{
+								Child
+								{
+									submesh = "default"
+								}
+								Teen
+								{
+									submesh = "hidden"
+								}
+							}
+						}
+					}
+				}
+			}
+			StaticGraphics
+			{
+				model = "Character/Armor/bronze_helmet_grnd.obj"
+				dontCastShadows = 1.0
+				hideMesh = "wrap"
+				
+				Diffuse
+				{
+					0 = "Character/Gear/3P/Textures/BlackCap_diff.tga"
+				}
+				Normal
+				{
+					0 = "Character/Gear/3P/Textures/BlackCap_norm.tga"
+				}
+			}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 50.0
+						convex = 0
+						material = "WOOD"
+					}
+				}
+
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Placeable
+			{
+				name = "Black Cap"
+				icon = "black_cap"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Gear"
+				tier = 3
+				maxStackCount = 1
+				resource = 1
+				durability = 480.0
+
+				placementSound = "GrassPlace"
+				removalSound = "GrassDig"
+
+				Equipment Slots
+				{
+					Tool
+				}
+			}
+		}
+		
+		Black Tunic
+		{
+			Tag = "Gear"
+			
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/EquipableGear.lua"
+				class = "EquipableGear"
+	
+				arguments
+				{
+					category = "Gear"
+					slot = "Chest"
+					incorrectTierCap = 2
+					encumbrance = 0.9
+					equipSound = "SandDig"
+
+					dataMetricCategory = "Chest"
+					UBPcraft = 6
+					LBPcraft = 8
+					XPcraft = 14
+
+					AllowedGrowthStates
+					{
+						"Teen" = 1
+					}
+					
+					AppearenceRules
+					{
+						"Chest"
+						{
+							priority = 1.0
+							GrowthState
+							{
+								Child
+								{
+									submesh = "default"
+								}
+								Teen
+								{
+									submesh = "Black_Tunic"
+								}
+							}
+						}
+					}
+				}
+			}
+			StaticGraphics
+			{
+				model = "Character\Armor\TeenBronzeTunic.obj"
+				dontCastShadows = 1.0
+				
+				Diffuse
+				{
+					0 = "Character/Gear/3P/Textures/BlackTunic_diff.tga"
+				}
+				Normal
+				{
+					0 = "Character/Gear/3P/Textures/BlackTunic_norm.tga"
+				}
+			}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 10.0
+						convex = 0
+						material = "WOOD"
+					}
+				}
+
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Placeable
+			{
+				name = "Black Tunic"
+				icon = "blackTeenTunic"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Gear"
+				tier = 3
+				maxStackCount = 1
+				resource = 1
+				durability = 480.0
+
+				placementSound = "GrassPlace"
+				removalSound = "GrassDig"
+
+				Equipment Slots
+				{
+					Tool
+				}
+			}
+		}
+	}
+}

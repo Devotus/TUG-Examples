@@ -1,0 +1,121 @@
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Crafting Archetypes +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Archetypes
+{
+	// ------------------------------------------------------------- Tools & Weapons ---------------------------------------------------------------
+	Hammer
+	{
+		Black Hammer
+	}
+	Axe
+	{
+		Black Axe
+	}
+	Knife
+	{
+		Black Knife
+	}
+	Shovel
+	{
+		Black Shovel
+	}
+	Hoe
+	{
+		Black Hoe
+	}
+	Pick
+	{
+		Black Pick
+	}
+	Large Modular Tool
+	{
+		Black Shovel
+		Black Hoe
+	}
+	Small Modular Tool
+	{
+		Black Axe
+		Black Hammer
+		Black Pick
+		Black Knife
+	}
+	
+	// ----------------------------------------------------------------- Common --------------------------------------------------------------------
+	Black Tool Weapon
+	{
+		Black Shovel
+		Black Hoe
+		Black Axe
+		Black Hammer
+		Black Pick
+		Black Knife
+		Black Slingshot
+	}
+	
+	Black Tool
+	{
+		Black Shovel
+		Black Hoe
+		Black Axe
+		Black Hammer
+		Black Pick
+		Black Knife
+	}
+	
+	Black Weapon
+	{
+		Black Slingshot
+	}
+	
+	Metal Tool Weapon
+	{
+		Black Shovel
+		Black Hoe
+		Black Axe
+		Black Hammer
+		Black Pick
+		Black Knife
+		Black Slingshot
+	}
+	
+	Metal Tool
+	{
+		Black Shovel
+		Black Hoe
+		Black Axe
+		Black Hammer
+		Black Pick
+		Black Knife
+	}
+	
+	Metal Weapon
+	{
+		Black Slingshot
+	}
+	
+	Any Tool Weapon
+	{
+		Black Shovel
+		Black Hoe
+		Black Axe
+		Black Hammer
+		Black Pick
+		Black Knife
+		Black Slingshot
+	}
+	
+	Any Tool
+	{
+		Black Shovel
+		Black Hoe
+		Black Axe
+		Black Hammer
+		Black Pick
+		Black Knife
+	}
+	
+	Any Weapon
+	{
+		Black Slingshot
+	}
+}

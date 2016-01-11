@@ -1,0 +1,83 @@
+﻿
+GameObjects
+{
+	PlaceableObject
+	{
+		Black Latten
+		{
+			Tag = "Refined"
+			
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/PlaceableObject.lua"
+				class = "PlaceableObject"
+	
+				arguments
+				{
+					encumbrance = 1
+
+					dataMetricCategory = "Refined Material"
+					UBPcraft = 5
+					LBPcraft = 3
+					XPcraft = 8
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Refined/black_latten.obj"
+				dontCastShadows = 1.0
+	
+				Diffuse
+				{
+					0 = "Models/PlaceableObjects/Refined/black_latten_diff.tga"
+				}
+				Normal
+				{
+					0 = "Models/PlaceableObjects/Refined/black_latten_norm.tga"
+				}
+				Glow
+				{
+					0 = "Models/PlaceableObjects/Refined/black_latten_glow.tga"
+				}
+			}
+			
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 50.0
+						convex = 0
+						material = "WOOD"
+					}
+				}
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+
+			Placeable
+			{
+				name = "Black Latten"
+				icon = "black_latten_icon"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Metal"
+				tier = 3
+				resource = 1
+				maxStackCount = 10.0
+				
+				survivalFaceCamera = 1
+				survivalRotOffset = [0.0, 1.0, 0.0, 0.0]
+
+				placementSound = "StonePlace"
+			}
+		}
+	}
+}

@@ -1,0 +1,159 @@
+﻿
+GameObjects
+{
+	PlaceableObject
+	{
+		Black Furnace
+		{
+			Tag = "BronzeAge"
+
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/BlackFurnace.lua"
+				class = "BlackFurnace"
+
+				arguments
+				{
+					pickupDelay = 3.25
+					pickupHeavy = 1
+					encumbrance = 20.0
+
+					dataMetricCategory = "Table"
+					UBPcraft = 4
+					LBPcraft = 4
+					XPcraft = 8
+
+					defaultBurnTime = 0
+
+					# Active/inactive settings.
+					activeSound = "Torch"
+
+					LightRadius
+					{
+						active = 40
+						inactive = 5
+					}
+
+					LightFlickers
+					{
+						active = 0
+						inactive = 1
+					}
+
+					Emitters
+					{
+						Active
+						{
+							"Smoke Half Emitter"
+							"BlackRock Fire Emitter"
+							"BlackRock Flames Emitter"
+						}
+					}
+
+					ConsumableObjects
+					{
+						Crystal Shard
+						{
+							duration = 30
+							canStart = 1
+							isConsumed = 1
+						}
+						Firestone Shard
+						{
+							duration = 60
+							canStart = 1
+							isConsumed = 1
+						}
+					}
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/CrafterObjects/BlackFurnace.obj"
+
+				Diffuse
+				{
+					"stonefurnace" = "Models/PlaceableObjects/CrafterObjects/blackFurnace_diff.tga"
+					"leatherBellows" = "Models/PlaceableObjects/CrafterObjects/blackBellows_diff.tga"
+					"blackRock" = "Models/PlaceableObjects/CrafterObjects/blackRock_diff.tga"
+				}
+				Normal
+				{
+					"stonefurnace" = "Models/PlaceableObjects/CrafterObjects/blackFurnace_norm.tga"
+				}
+				
+				Glow
+				{
+					"blackRock" = "Models/PlaceableObjects/CrafterObjects/blackRock_glow.tga"
+				}
+
+			}
+			#RigidBody
+			#{
+			#	activePhysics = 1
+			#	mass = 50.0
+			#	friction = 20.0
+			#}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 150.0
+						convex = 0
+						material = "WOOD"
+					}
+				}
+
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+
+			Placeable
+			{
+				name = "Black Furnace"
+				icon = "Black_Furnace"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Table"
+				tier = 3
+				resource = 1
+				placeWithNoPhysics = 1
+
+				survivalFaceCamera = 1
+				survivalRotOffset = [0.0, 1.0, 0.0, -90.0]
+
+				placementSound = "StonePlace"
+			}
+			Light
+			{
+				lightRadius = 40.0
+				lightOffset = <0.0, 2.5, 0.0>
+				lightColor = <0.5, 0.0, 0.8>
+			}
+			Children
+			{
+				Smoke Half Emitter
+				{
+					offset = <4.1, 2.75, 0.0>
+				}
+				BlackRock Fire Emitter
+				{
+					offset = <2.0, 1.5, 0.0>
+				}
+				BlackRock Flames Emitter
+				{
+					offset = <2.0, 1.75, 0.0>
+					rotationOffset = <0.0, 0.0, 90.0>
+				}
+			}
+		}
+	}
+}

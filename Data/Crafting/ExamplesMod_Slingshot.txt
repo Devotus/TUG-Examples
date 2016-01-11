@@ -1,0 +1,558 @@
+Recipes
+{
+
+	Black Slingshot Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Black Slingshot"
+			
+			craftTime = 8.0
+			priority = 3.0
+			
+			Components
+			{
+				Head
+				{
+					"Black Rock" = 1
+				}
+				Binding
+				{
+					"Vines" = 3
+				}
+			}
+			Results
+			{
+				"Black Slingshot" = 1
+			}
+			Crafting Stations
+			{
+				Alchemy Table
+				{
+					offsetOverride = <0.0, 5.0, 0.0>
+					craftTime = 10.0
+					energyCost = 20.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Collected
+					{
+						1
+						{
+							name = "Black Rock"
+							count = 1
+						}
+						2
+						{
+							name = "Vines"
+							count = 3
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	Fire Pebbles Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Fire Pebbles"
+			
+			craftTime = 2.0
+			priority = 2.0
+			
+			Components
+			{
+				Crystal
+				{
+					"Firestone Shard" = 1
+				}
+			}
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 3
+			}
+			Crafting Stations
+			{
+				Black Anvil
+				{
+					craftTime = 2.0
+					energyCost = 5.0
+				}
+			}
+			Results
+			{
+				"Fire Pebbles" = 10
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Slingshot"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	Frozen Pebbles Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Frozen Pebbles"
+			
+			craftTime = 2.0
+			priority = 2.0
+			
+			Components
+			{
+				Crystal
+				{
+					"Froststone Shard" = 1
+				}
+			}
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 3
+			}
+			Crafting Stations
+			{
+				Black Anvil
+				{
+					craftTime = 2.0
+					energyCost = 5.0
+				}
+			}
+			Results
+			{
+				"Frozen Pebbles" = 10
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Slingshot"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	Peridot Pebbles Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Peridot Pebbles"
+			
+			craftTime = 2.0
+			priority = 2.0
+			
+			Components
+			{
+				Crystal
+				{
+					"Peridot Shard" = 1
+				}
+			}
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 3
+			}
+			Crafting Stations
+			{
+				Black Anvil
+				{
+					craftTime = 2.0
+					energyCost = 5.0
+				}
+			}
+			Results
+			{
+				"Peridot Pebbles" = 10
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Slingshot"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	Ruby Pebbles Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Ruby Pebbles"
+			
+			craftTime = 2.0
+			priority = 2.0
+			
+			Components
+			{
+				Crystal
+				{
+					"Ruby Shard" = 1
+				}
+			}
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 3
+			}
+			Crafting Stations
+			{
+				Black Anvil
+				{
+					craftTime = 2.0
+					energyCost = 5.0
+				}
+			}
+			Results
+			{
+				"Ruby Pebbles" = 10
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Slingshot"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	Sapphire Pebbles Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Sapphire Pebbles"
+			
+			craftTime = 2.0
+			priority = 2.0
+			
+			Components
+			{
+				Crystal
+				{
+					"Sapphire Shard" = 1
+				}
+			}
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 3
+			}
+			Crafting Stations
+			{
+				Black Anvil
+				{
+					craftTime = 2.0
+					energyCost = 5.0
+				}
+			}
+			Results
+			{
+				"Sapphire Pebbles" = 10
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Slingshot"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	Topaz Pebbles Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Topaz Pebbles"
+			
+			craftTime = 2.0
+			priority = 2.0
+			
+			Components
+			{
+				Crystal
+				{
+					"Topaz Shard" = 1
+				}
+			}
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 3
+			}
+			Crafting Stations
+			{
+				Black Anvil
+				{
+					craftTime = 2.0
+					energyCost = 5.0
+				}
+			}
+			Results
+			{
+				"Topaz Pebbles" = 10
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Slingshot"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	Amethyst Pebbles Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Amethyst Pebbles"
+			
+			craftTime = 2.0
+			priority = 2.0
+			
+			Components
+			{
+				Crystal
+				{
+					"Amethyst Shard" = 1
+				}
+			}
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 3
+			}
+			Crafting Stations
+			{
+				Black Anvil
+				{
+					craftTime = 2.0
+					energyCost = 5.0
+				}
+			}
+			Results
+			{
+				"Amethyst Pebbles" = 10
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Slingshot"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	Blue Pebbles Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Blue Pebbles"
+			
+			craftTime = 2.0
+			priority = 2.0
+			
+			Components
+			{
+				Crystal
+				{
+					"Blue Crystal Shard" = 1
+				}
+			}
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 3
+			}
+			Crafting Stations
+			{
+				Black Anvil
+				{
+					craftTime = 2.0
+					energyCost = 5.0
+				}
+			}
+			Results
+			{
+				"Blue Pebbles" = 10
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Slingshot"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	Citrine Pebbles Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Crafting... "
+			craftingDisplayName = "Citrine Pebbles"
+			
+			craftTime = 2.0
+			priority = 2.0
+			
+			Components
+			{
+				Crystal
+				{
+					"Citrine Shard" = 1
+				}
+			}
+			Crafting Tool
+			{
+				category = "Hammer"
+				tier = 3
+			}
+			Crafting Stations
+			{
+				Black Anvil
+				{
+					craftTime = 2.0
+					energyCost = 5.0
+				}
+			}
+			Results
+			{
+				"Citrine Pebbles" = 10
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Crafted
+					{
+						1
+						{
+							name = "Black Slingshot"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}

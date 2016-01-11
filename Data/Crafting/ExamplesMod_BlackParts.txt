@@ -1,0 +1,411 @@
+Recipes
+{
+	Black Hammer Head Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Molding... "
+			craftingDisplayName = "Black Hammer Head"
+			
+			#Craft times are below
+			priority = 1.0
+			
+			Components
+			{
+				Metal
+				{
+					"Black Latten" = 1
+				}
+				Head
+				{
+					"Crude Hammer" = 1
+				}
+			}
+			Results
+			{
+				"Black Hammer Head" = 1
+			}
+			Crafting Stations
+			{
+				Sandcast Mold
+				{
+					spawnOffsetOverride = <0.0, 2.0, 0.0>
+					craftTime = 7.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Collected
+					{
+						1
+						{
+							name = "Crude Hammer"
+							count = 1
+						}
+						2
+						{
+							name = "Black Latten"
+							count = 1
+						}
+						3
+						{
+							name = "Stone Furnace"
+							count = 1
+						}
+						4
+						{
+							name = "Sandcast Mold"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Axe Head Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Molding... "
+			craftingDisplayName = "Black Axe Head"
+			
+			#Craft times are below
+			priority = 1.0
+			
+			Components
+			{
+				Metal
+				{
+					"Black Latten" = 1
+				}
+				Head
+				{
+					"Crude Axe" = 1
+				}
+			}
+			Results
+			{
+				"Black Axe Head" = 1
+			}
+			Crafting Stations
+			{
+				Sandcast Mold
+				{
+					spawnOffsetOverride = <0.0, 2.0, 0.0>
+					craftTime = 7.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Collected
+					{
+						1
+						{
+							name = "Crude Axe"
+							count = 1
+						}
+						2
+						{
+							name = "Black Latten"
+							count = 1
+						}
+						3
+						{
+							name = "Stone Furnace"
+							count = 1
+						}
+						4
+						{
+							name = "Sandcast Mold"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Pick Head Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Molding... "
+			craftingDisplayName = "Black Pick Head"
+			
+			#Craft times are below
+			priority = 1.0
+			
+			Components
+			{
+				Metal
+				{
+					"Black Latten" = 1
+				}
+				Head
+				{
+					"Crude Pick" = 1
+				}
+			}
+			Results
+			{
+				"Black Pick Head" = 1
+			}
+			Crafting Stations
+			{
+				Sandcast Mold
+				{
+					spawnOffsetOverride = <0.0, 2.0, 0.0>
+					craftTime = 7.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Collected
+					{
+						1
+						{
+							name = "Crude Pick"
+							count = 1
+						}
+						2
+						{
+							name = "Black Latten"
+							count = 1
+						}
+						3
+						{
+							name = "Stone Furnace"
+							count = 1
+						}
+						4
+						{
+							name = "Sandcast Mold"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Knife Blade Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Molding... "
+			craftingDisplayName = "Black Knife Blade"
+			
+			#Craft times are below
+			priority = 1.0
+			
+			Components
+			{
+				Metal
+				{
+					"Black Latten" = 1
+				}
+				Head
+				{
+					"Crude Knife" = 1
+				}
+			}
+			Results
+			{
+				"Black Knife Blade" = 1
+			}
+			Crafting Stations
+			{
+				Sandcast Mold
+				{
+					spawnOffsetOverride = <0.0, 2.0, 0.0>
+					craftTime = 7.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Collected
+					{
+						1
+						{
+							name = "Crude Knife"
+							count = 1
+						}
+						2
+						{
+							name = "Black Latten"
+							count = 1
+						}
+						3
+						{
+							name = "Stone Furnace"
+							count = 1
+						}
+						4
+						{
+							name = "Sandcast Mold"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Hoe Head Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Molding... "
+			craftingDisplayName = "Black Hoe Head"
+			
+			#Craft times are below
+			priority = 1.0
+			
+			Components
+			{
+				Metal
+				{
+					"Black Latten" = 1
+				}
+				Head
+				{
+					"Crude Hoe" = 1
+				}
+			}
+			Results
+			{
+				"Black Hoe Head" = 1
+			}
+			Crafting Stations
+			{
+				Sandcast Mold
+				{
+					spawnOffsetOverride = <0.0, 2.0, 0.0>
+					craftTime = 7.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Collected
+					{
+						1
+						{
+							name = "Crude Hoe"
+							count = 1
+						}
+						2
+						{
+							name = "Black Latten"
+							count = 1
+						}
+						3
+						{
+							name = "Stone Furnace"
+							count = 1
+						}
+						4
+						{
+							name = "Sandcast Mold"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	Black Shovel Head Recipe
+	{
+		Script = "Scripts/Recipes/DefaultRecipe.lua"
+
+		LuaData
+		{
+			craftingActionName = "Molding... "
+			craftingDisplayName = "Black Shovel Head"
+			
+			#Craft times are below
+			priority = 1.0
+			
+			Components
+			{
+				Metal
+				{
+					"Black Latten" = 1
+				}
+				Head
+				{
+					"Crude Shovel" = 1
+				}
+			}
+			Results
+			{
+				"Black Shovel Head" = 1
+			}
+			Crafting Stations
+			{
+				Sandcast Mold
+				{
+					spawnOffsetOverride = <0.0, 2.0, 0.0>
+					craftTime = 7.0
+				}
+			}
+			#Requirements to unlock this recipe in the crafting journal
+			Requirements
+			{
+				#Player has collected the following resources
+				1
+				{
+					Collected
+					{
+						1
+						{
+							name = "Crude Shovel"
+							count = 1
+						}
+						2
+						{
+							name = "Black Latten"
+							count = 1
+						}
+						3
+						{
+							name = "Stone Furnace"
+							count = 1
+						}
+						4
+						{
+							name = "Sandcast Mold"
+							count = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}

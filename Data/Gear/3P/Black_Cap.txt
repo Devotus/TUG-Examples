@@ -1,0 +1,15 @@
+
+{
+	Submeshes
+	{
+		Black_Cap
+		{
+			mesh = "Geo_Helmet_Bonze01"
+			Textures
+			{
+				Diffuse = "Character/Gear/3P/Textures/BlackCap_diff.tga"
+				Normal = "Character/Gear/3P/Textures/BlackCap_norm.tga"
+			}
+		}
+	}
+}

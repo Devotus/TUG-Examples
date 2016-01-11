@@ -1,0 +1,84 @@
+﻿
+GameObjects
+{
+	PlaceableObject
+	{
+		Black Knife Blade
+		{
+			Tag = "Refined"
+			
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/PlaceableObject.lua"
+				class = "PlaceableObject"
+			
+				arguments
+				{
+					encumbrance = 0.4
+					durability = 30
+					damageBonus = 6
+					headType = 45
+					incorrectTierCap = 0
+
+					dataMetricCategory = "Refined Black Head"
+					UBPcraft = 5
+					LBPcraft = 3
+					XPcraft = 8
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Refined/blackKnifeBlade.obj"
+				dontCastShadows = 1.0
+
+				Diffuse
+				{
+					"head" = "Character/Tools/blackKnife_New_diff.tga"
+					"head_used" = "Character/Tools/blackKnife_Used_diff.tga"
+					"head_poor" = "Character/Tools/blackKnife_Poor_diff.tga"
+				}
+				Normal
+				{
+					"head" = "Character/Tools/blackKnife_New_norm.tga"
+					"head_used" = "Character/Tools/blackKnife_Used_norm.tga"
+					"head_poor" = "Character/Tools/blackKnife_Poor_norm.tga"
+				}
+			}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 10.0
+						convex = 1
+						decompose = 0
+						mesh = "Models/PlaceableObjects/Refined/blackKnifeBlade.obj"
+						material = "STONE"
+					}
+				}
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Placeable
+			{
+				name = "Black Knife Blade"
+				icon = "blackKnifeBlade"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Metal"
+				tier = 4
+				resource = 1
+				maxStackCount = 10.0
+								
+				placementSound = "StonePlace"
+			}
+		}
+	}
+}

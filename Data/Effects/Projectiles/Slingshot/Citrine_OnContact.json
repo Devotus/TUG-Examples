@@ -1,0 +1,51 @@
+﻿{
+	"type": "EffectGroup",
+	"name": "Slingshot:Citrine_OnContact",
+	
+	"effects": [
+		{
+			"effectScript": "HandlerStop"
+		},
+		{
+			"effectScript": "RadiusEffect",
+			"radius": 4,
+			"callback": [
+				{
+					"effectScript": "TargetBuff",
+					"class": "PoisonDebuff",
+					"Data": { 
+						"duration": 3,
+						"damage": 3.0,
+						"ticksPerSecond": 2,
+						"value": 0.5,
+						"stacks": false
+					},
+					"players": true,
+					"characters": true,
+					"affectDead": false
+				}
+			]
+		},
+		{
+			"effectScript": "HandlerEffect",
+			"callback": [
+				{
+					"effectScript": "TargetPlayEmitter",
+					"name": "Slingshot Citrine Explosion Emitter"
+				},
+				{
+					"effectScript": "TargetPlaySound",
+					"name": "FireballExplosion",
+					"minDist": 10,
+					"maxDist": 100
+				}
+			]
+		},
+		{
+			"effectScript": "PlayBreakEmitter"
+		},
+		{
+			"effectScript": "Remove"
+		}
+	]
+}

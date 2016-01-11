@@ -1,0 +1,123 @@
+GameObjects
+{
+	Equipable
+	{
+		Test Gear1
+		{
+			Tag = "Gear"
+			
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/EquipableGear.lua"
+				class = "EquipableGear"
+	
+				arguments
+				{
+					category = "Gear"
+					slot = "Chest"
+					incorrectTierCap = 2
+					encumbrance = 0.9
+					equipSound = "SandDig"
+
+					dataMetricCategory = "Chest"
+					UBPcraft = 3
+					LBPcraft = 3
+					XPcraft = 6
+
+					swinganimations
+					{
+						"ItemVSwing"
+					}
+
+					AllowedGrowthStates
+					{
+						"Child" = 1
+					}
+					
+					AppearenceRules
+					{
+						"Left Arm"
+						{
+							priority = 1.0
+							GrowthState
+							{
+								Child
+								{
+									submesh = "Geo_L_Arm_PlateGuard01"
+								}
+								Teen
+								{
+									submesh = "default"
+								}
+							}
+						}
+					}
+				}
+			}
+			StaticGraphics
+			{
+				model = "Character\Armor\LeafFurHoodie.obj"
+				dontCastShadows = 1.0
+				
+				Diffuse
+				{
+					0 = "Character/Seed/3P/0Child/Male/Textures/leaf_gear_diff.tga"
+				}
+				Normal
+				{
+					0 = "Character/Seed/3P/0Child/Male/Textures/leaf_gear_norm.tga"
+				}
+			}
+			#RigidBody
+			#{
+			#	activePhysics = 1
+			#	mass = 1.0
+			#	friction = 25.0
+			#}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 10.0
+						convex = 0
+						material = "WOOD"
+					}
+				}
+
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+
+			Placeable
+			{
+				name = "Test Gear1"
+				icon = "LeafFurHoodie"
+				minScale = 1.0
+				maxScale = 1.0
+
+				category = "Gear"
+				tier = 2
+				maxStackCount = 1
+				resource = 1
+				durability = 480.0
+
+				placementSound = "GrassPlace"
+				removalSound = "GrassDig"
+				miningEmitter = "Strike Glint Emitter"
+				miningEmitterAlt = "Strike EmbersQuarter Emitter"
+
+				Equipment Slots
+				{
+					Tool
+				}
+			}
+		}
+	}
+}

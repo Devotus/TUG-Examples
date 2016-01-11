@@ -1,0 +1,83 @@
+﻿
+GameObjects
+{
+	PlaceableObject
+	{
+		Black Hoe Head
+		{
+			Tag = "Refined"
+			
+			Transform
+			{
+			}
+			Script
+			{
+				file = "Scripts/Objects/PlaceableObject.lua"
+				class = "PlaceableObject"
+			
+				arguments
+				{
+					encumbrance = 0.6
+					durability = 1920
+					damageBonus = 0
+					headType = 0
+					incorrectTierCap = 0
+
+					dataMetricCategory = "Refined Black Head"
+					UBPcraft = 5
+					LBPcraft = 4
+					XPcraft = 9
+				}
+			}
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Refined/blackHoeHead.obj"
+				dontCastShadows = 1.0
+				Diffuse
+				{
+					"head" = "Character/Tools/blackHoe_New_diff.tga"
+					"head_used" = "Character/Tools/blackHoe_Used_diff.tga"
+					"head_poor" = "Character/Tools/blackHoe_Poor_diff.tga"
+				}
+				Normal
+				{
+					"head" = "Character/Tools/blackHoe_New_norm.tga"
+					"head_used" = "Character/Tools/blackHoe_Used_norm.tga"
+					"head_poor" = "Character/Tools/blackHoe_Poor_norm.tga"
+				}
+			}
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 10.0
+						convex = 1
+						decompose = 0
+						mesh = "Models/PlaceableObjects/Refined/blackHoeHead.obj"
+						material = "STONE"
+					}
+				}
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Placeable
+			{
+				name = "Black Hoe Head"
+				icon = "blackHoeHead"
+				minScale = 1.0
+				maxScale = 1.0
+				
+				category = "Metal"
+				tier = 4
+				resource = 1
+				maxStackCount = 10.0
+
+				placementSound = "StonePlace"
+			}
+		}
+	}
+}

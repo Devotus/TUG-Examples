@@ -1,0 +1,51 @@
+﻿
+Particles
+{
+	Slingshot Amethyst Explosion
+	{
+		textureName = "FX/Textures/slingshot_spark.tga"
+		textureSize = 256
+		elasticity = 0.0
+		addColor = <0.2, 0.0, 0.2>
+		multiplyColor = <1.0, 0.0, 1.0>
+		rotationSpeed = 0.25
+		scaling = <3.0, 3.0, 3.0>
+		scalingSpeed = <1.9, 1.9, 1.9>
+		scalingType = "multiply"
+		scalingVariance = 0
+		acceleration = <0, 0, 0>
+		maxAge = 0.45
+		ageVariance = .14
+		ageToStartFading = 0.25
+		ageToStartShrinking = 0.35
+		fadeInAge = 0.1
+		growInAge = 0
+		blendType = "additive"
+		speedCap = 100
+		orientation = "normal"
+	}
+	
+	Slingshot Amethyst
+	{
+		textureName = "FX/Textures/slingshot_spark.tga"
+		textureSize = 256
+		elasticity = 0.0
+		addColor = <0.2, 0.0, 0.2>
+		multiplyColor = <1.0, 0.0, 1.0>
+		rotationSpeed = 0.25
+		scaling = <.3, .3, .3>
+		scalingSpeed = <0.7, 0.7, 0.7>
+		scalingType = "multiply"
+		scalingVariance = 0
+		acceleration = <0, 0, 0>
+		maxAge = 1.75
+		ageVariance = .75
+		ageToStartFading = .5
+		ageToStartShrinking = -.5
+		fadeInAge = 0
+		growInAge = 0
+		blendType = "additive"
+		speedCap = 100
+		orientation = "normal"
+	}
+}

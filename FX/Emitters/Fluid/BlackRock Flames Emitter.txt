@@ -1,0 +1,59 @@
+{
+	FX
+	{
+		BlackRock Flames Emitter
+		{
+			Emitter
+			{
+				type = "Fluid"
+				endless
+
+				BlackRockFlame_01
+				{
+					rate = 20
+					rateVariance = 2
+					oscillation = 1
+					start = 0
+					stop = 1
+					velocity = <0.0f, 1.25f, 0.0f>
+					velocityVariance = <0.05f, 0.5f, 0.05f>
+					rotation = 0
+					rotationVariance = 360
+					type = "point"
+					randomizeAtSpawn
+				}
+				BlackRockFlame_02
+				{
+					rate = 20
+					rateVariance = 2
+					oscillation = 1
+					start = 0
+					stop = 1
+					velocity = <0.0f, 1.25f, 0.0f>
+					velocityVariance = <0.05f, 0.5f, 0.05f>
+					rotation = 0
+					rotationVariance = -360
+					type = "point"
+					randomizeAtSpawn
+				}
+				BlackRockFlame_03
+				{
+					rate = 20
+					rateVariance = 2
+					oscillation = 1
+					start = 0
+					stop = 1
+					velocity = <0.0f, 0.75f, 0.0f>
+					velocityVariance = <0.05f, 0.5f, 0.05f>
+					rotation = 0
+					rotationVariance = -360
+					type = "point"
+					randomizeAtSpawn
+				}
+			}
+			Transform
+			{
+			}
+		}
+	}
+}

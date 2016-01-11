@@ -1,0 +1,95 @@
+GameObjects
+{
+	PlaceableObject
+	{
+		Frozen Pebbles
+		{
+			Tag = "Harvestables"
+			
+			Transform
+			{
+			}
+
+			Script
+			{
+				file = "Scripts/Objects/ObjectEmitterLoot.lua"
+				class = "ObjectEmitterLoot"
+				
+				arguments
+				{
+					encumbrance = 0.3
+					
+					ammoType = "magicStone"
+					
+					Projectile
+					{
+						name = "Frozen Pebble Projectile"
+						strikeThreshold = -0.5
+						force = 25.0
+						damage = 15.0
+					}
+
+					dataMetricCategory = "Rock Resource"
+					UBPcraft = 2
+					LBPcraft = 1
+					XPcraft = 3					
+				}
+			}
+			
+			StaticGraphics
+			{
+				model = "Models/PlaceableObjects/Harvestables/rockPebblesD.obj"
+				
+				Diffuse
+				{
+					0 = "Models/PlaceableObjects/Harvestables/rockPebblesGray_diff.tga"
+				}
+				Normal
+				{
+					0 = "Models/PlaceableObjects/Harvestables/rockPebbles_norm.tga"
+				}
+			}
+			
+			Physics
+			{
+				Colliders
+				{
+					Mesh
+					{
+						mass = 15.0
+						convex = 0
+						mesh = "Models/PlaceableObjects/Harvestables/rockPebblesD.obj"
+						material = "STONE"
+					}
+				}
+
+				Rigidbody
+				{
+					keyframed = 1
+				}
+			}
+			Placeable
+			{
+				name = "Frozen Pebbles"
+				icon = "FrozenPebbles"
+				minScale = 1.0
+				maxScale = 2.0
+
+				category = "Rock"
+				tier = 1
+				resource = 1
+				maxStackCount = 400
+				durabilityLossOnCorrect = 1.0
+				
+				placementSound = "StonePlace"
+			}
+			Children
+			{
+				Slingshot Frozen Emitter
+				{
+					offset = <0.0, 0.0, 0.0>
+				}
+			}
+		}
+	}
+}

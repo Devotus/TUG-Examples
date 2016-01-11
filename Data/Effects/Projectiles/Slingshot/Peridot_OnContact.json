@@ -1,0 +1,47 @@
+﻿{
+	"type": "EffectGroup",
+	"name": "Slingshot:Peridot_OnContact",
+	
+	"effects": [
+		{
+			"effectScript": "HandlerStop"
+		},
+		{
+			"effectScript": "RadiusEffect",
+			"radius": 4,
+			"callback": [
+				{
+					"effectScript": "TargetHeal",
+					"breakdown": true,
+					"incorrectTierCap": 0,
+					"gameObjectHeal": 40,
+					"Affects": { 
+						"Vegetation": 3,
+						"Wood": 3,
+					}
+				}
+			]
+		},
+		{
+			"effectScript": "HandlerEffect",
+			"callback": [
+				{
+					"effectScript": "TargetPlayEmitter",
+					"name": "Slingshot Peridot Explosion Emitter"
+				},
+				{
+					"effectScript": "TargetPlaySound",
+					"name": "FireballExplosion",
+					"minDist": 10,
+					"maxDist": 100
+				}
+			]
+		},
+		{
+			"effectScript": "PlayBreakEmitter"
+		},
+		{
+			"effectScript": "Remove"
+		}
+	]
+}
