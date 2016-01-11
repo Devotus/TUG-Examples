@@ -1,24 +1,29 @@
 {
-    "Name": "Examples",
-    "Summary": "Examples",
-    "Description": "Examples",
-    "Website": "Devotus.github.io/TUG-Examples",
-    "Icon": "",
-    "Active": false,
-    "TargetGame": {
-        "Name": "TUG"
-    },
-    "Authors": [
-        {
-            "GitUsername": "JohnyCilohokla",
-            "NkUsername": "JohnyCilohokla",
-            "Email": "johny@nerdkingdom.com"
-        }
-    ],
-    "Dependencies": [],
-    "Categories": [
-        "Miscellaneous",
-        "Cosmetics",
-        "Magic"
-    ]
+  "Name": "Examples",
+  "Summary": "Examples",
+  "Description": "Examples",
+  "Website": "Devotus.github.io/TUG-Examples",
+  "Icon": "",
+  "Active": false,
+  "TargetGame": {
+    "Name": "TUG"
+  },
+  "Authors": [
+    {
+      "GitUsername": "JohnyCilohokla",
+      "NkUsername": "JohnyCilohokla",
+      "Email": "johny@nerdkingdom.com"
+    }
+  ],
+  "Dependencies": [],
+  "Categories": [
+    "Miscellaneous",
+    "Cosmetics",
+    "Magic"
+  ],
+  "Media": [],
+  "Script": {
+    "File": "Scripts/ExamplesMod.lua",
+    "Class": "ExamplesMod"
+  }
 }
