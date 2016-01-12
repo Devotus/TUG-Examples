@@ -3,7 +3,6 @@
   "Summary": "Examples",
   "Description": "Examples",
   "Website": "Devotus.github.io/TUG-Examples",
-  "Icon": "",
   "Active": true,
   "TargetGame": {
     "Name": "TUG"
@@ -12,7 +11,8 @@
     {
       "GitUsername": "JohnyCilohokla",
       "NkUsername": "JohnyCilohokla",
-      "Email": "johny@nerdkingdom.com"
+      "Email": "johny@nerdkingdom.com",
+      "$$hashKey": "object:60"
     }
   ],
   "Dependencies": [],
@@ -22,6 +22,142 @@
     "Magic"
   ],
   "Media": [],
+  "Icon": "http://tugfiles.nerdkingdom.com/www/img/tug-logo.png",
+  "WebPage": {
+    "HeaderMedia": [
+      "v77e82f9c-3e05-113f-b422-b75a963a9b5d"
+    ],
+    "DetailMedia": [
+      "i594ac48a-47dc-3e9a-15f1-64c7bd8b8f73"
+    ],
+    "DetailHidden": false,
+    "Sections": [
+      {
+        "Title": "Changes",
+        "Headline": "To change or add sections, edit the mod's manifest.",
+        "Icon": "forumbee",
+        "Columns": "1",
+        "Content": [
+          {
+            "Type": "Paragraph",
+            "Value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus arcu at dui congue iaculis. Morbi placerat lorem laoreet sem elementum, vel laoreet sem ultricies. Cras aliquam, libero molestie vehicula vulputate, dui est condimentum nisi, eget sodales erat sem sit amet lectus. Donec nec imperdiet felis, porttitor sollicitudin nulla. Donec ac vestibulum ligula. Nam cursus tristique massa, in tempus elit molestie a. Suspendisse metus dolor, cursus malesuada eros id, convallis bibendum magna. Nullam laoreet est ante, id ornare ante finibus non.",
+            "$$hashKey": "object:96"
+          },
+          {
+            "Type": "Paragraph",
+            "Value": "Etiam eget tincidunt nulla. Proin auctor iaculis mauris, vitae sollicitudin velit. Morbi et odio lorem. Donec in nisi a erat pellentesque porttitor. Nam risus neque, sagittis eget urna a, efficitur vulputate nibh. Duis et sem eu leo condimentum dictum. Mauris a gravida dui. Donec pretium tortor ut pellentesque pharetra. Quisque posuere aliquet massa eu ornare. Vivamus tincidunt massa ac erat commodo tempus. Nunc a dui sed nisl cursus tincidunt ac ut mauris. Nulla elementum non lectus sit amet fermentum. Nunc ac velit et orci vestibulum pharetra. Nullam nec enim eleifend, dignissim quam vel, tincidunt tellus. Donec vel commodo augue.",
+            "$$hashKey": "object:97"
+          }
+        ]
+      },
+      {
+        "Title": "Features",
+        "Headline": "Content",
+        "Icon": "cogs",
+        "Columns": "3",
+        "Content": [
+          {
+            "Type": "List",
+            "Items": [
+              "Black Latten",
+              "Black Pick Head",
+              "Black Hammer Head",
+              "Black Axe Head",
+              "Black Shovel Head",
+              "Black Hoe Head",
+              "Black Knife Blade"
+            ],
+            "$$hashKey": "object:334"
+          },
+          {
+            "Type": "List",
+            "Items": [
+              "Black Helmet",
+              "Black Vest",
+              "Black Pants",
+              "Black Shirt",
+              "Black Cap",
+              "Black Tunic",
+              "Black Kneepads"
+            ],
+            "$$hashKey": "object:392"
+          },
+          {
+            "Type": "List",
+            "Items": [
+              "Black Furnace",
+              "Black Anvil",
+              "Black Slingshot",
+              "Black Pick",
+              "Black Hammer",
+              "Black Axe",
+              "Black Shovel",
+              "Black Hoe",
+              "Black Knife"
+            ],
+            "$$hashKey": "object:629"
+          },
+          {
+            "Type": "List",
+            "Items": [
+              "Amethyst Pebbles",
+              "Blue Pebbles",
+              "Citrine Pebbles",
+              "Fire Pebbles",
+              "Frozen Pebbles",
+              "Peridot Pebbles",
+              "Ruby Pebbles",
+              "Sapphire Pebbles",
+              "Topaz Pebbles"
+            ],
+            "$$hashKey": "object:692"
+          },
+          {
+            "Type": "List",
+            "Items": [
+              "Amethyst Pebble Projectile",
+              "Blue Pebble Projectile",
+              "Citrine Pebble Projectile",
+              "Fire Pebble Projectile",
+              "Frozen Pebble Projectile",
+              "Peridot Pebble Projectile",
+              "Ruby Pebble Projectile",
+              "Sapphire Pebble Projectile",
+              "Topaz Pebble Projectile"
+            ],
+            "$$hashKey": "object:744"
+          },
+          {
+            "Type": "List",
+            "Items": [
+              "Test Gear1"
+            ],
+            "$$hashKey": "object:796"
+          }
+        ],
+        "Background": "rgba(255,255,255,.4"
+      }
+    ],
+    "Theme": {
+      "Name": "Nerd Kingdom",
+      "Layout": "Scroll",
+      "HideNavBar": false,
+      "Primary": {
+        "Color": "#175ba5",
+        "Text": "#ffffff"
+      },
+      "Secondary": {
+        "Color": "#d7e1e7",
+        "Text": "#333333"
+      },
+      "Body": {
+        "Color": "#E1E1E1",
+        "Text": "#333333",
+        "Background": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAATElEQVQYV2N8+e7jfwYoEBfiZ4SxYTRMnhFZIUgSl2IMhbgUg61CNxWbYribCClGcTw+xTh9iex7kAcxFOJyM9jX+MIPZjI8eAgpBgAi7zbuVcN9gQAAAABJRU5ErkJggg==)"
+      },
+      "$$hashKey": "object:59"
+    }
+  },
   "Script": {
     "File": "Scripts/ExamplesMod.lua",
     "Class": "ExamplesMod"
