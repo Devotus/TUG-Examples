@@ -23,7 +23,7 @@
   ],
   "Media": [],
   "Script": {
-    "File": "",
-    "Class": ""
+    "File": "Scripts/ExamplesMod.lua",
+    "Class": "ExamplesMod"
   }
 }
