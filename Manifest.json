@@ -4,7 +4,7 @@
   "Description": "Examples",
   "Website": "Devotus.github.io/TUG-Examples",
   "Icon": "",
-  "Active": false,
+  "Active": true,
   "TargetGame": {
     "Name": "TUG"
   },
@@ -23,7 +23,7 @@
   ],
   "Media": [],
   "Script": {
-    "File": "Scripts/ExamplesMod.lua",
-    "Class": "ExamplesMod"
+    "File": "",
+    "Class": ""
   }
 }
