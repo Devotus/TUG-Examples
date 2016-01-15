@@ -54,6 +54,11 @@
             "Type": "Paragraph",
             "Value": "This mod uses Black Rock (hardest item to obtain in vanilla TUG) as the main ingredient.",
             "$$hashKey": "object:245"
+          },
+          {
+            "Type": "Paragraph",
+            "Value": "Forum thread: http://forum.nerdkingdom.com/discussion/2824/0-8-9-examples-mod",
+            "$$hashKey": "object:303"
           }
         ]
       },
