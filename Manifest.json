@@ -40,20 +40,15 @@
     "DetailHidden": false,
     "Sections": [
       {
-        "Title": "Changes",
-        "Headline": "To change or add sections, edit the mod's manifest.",
+        "Title": "Details",
+        "Headline": "Details",
         "Icon": "forumbee",
         "Columns": "1",
         "Content": [
           {
             "Type": "Paragraph",
-            "Value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus arcu at dui congue iaculis. Morbi placerat lorem laoreet sem elementum, vel laoreet sem ultricies. Cras aliquam, libero molestie vehicula vulputate, dui est condimentum nisi, eget sodales erat sem sit amet lectus. Donec nec imperdiet felis, porttitor sollicitudin nulla. Donec ac vestibulum ligula. Nam cursus tristique massa, in tempus elit molestie a. Suspendisse metus dolor, cursus malesuada eros id, convallis bibendum magna. Nullam laoreet est ante, id ornare ante finibus non.",
+            "Value": "This is an example mod. It contains custom objects, tools, weapons and gear.",
             "$$hashKey": "object:95"
-          },
-          {
-            "Type": "Paragraph",
-            "Value": "Etiam eget tincidunt nulla. Proin auctor iaculis mauris, vitae sollicitudin velit. Morbi et odio lorem. Donec in nisi a erat pellentesque porttitor. Nam risus neque, sagittis eget urna a, efficitur vulputate nibh. Duis et sem eu leo condimentum dictum. Mauris a gravida dui. Donec pretium tortor ut pellentesque pharetra. Quisque posuere aliquet massa eu ornare. Vivamus tincidunt massa ac erat commodo tempus. Nunc a dui sed nisl cursus tincidunt ac ut mauris. Nulla elementum non lectus sit amet fermentum. Nunc ac velit et orci vestibulum pharetra. Nullam nec enim eleifend, dignissim quam vel, tincidunt tellus. Donec vel commodo augue.",
-            "$$hashKey": "object:96"
           }
         ]
       },
