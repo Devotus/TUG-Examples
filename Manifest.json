@@ -11,7 +11,8 @@
     {
       "GitUsername": "JohnyCilohokla",
       "NkUsername": "JohnyCilohokla",
-      "Email": "johny@nerdkingdom.com"
+      "Email": "johny@nerdkingdom.com",
+      "$$hashKey": "object:60"
     }
   ],
   "Dependencies": [],
@@ -20,14 +21,21 @@
     "Cosmetics",
     "Magic"
   ],
-  "Media": [],
+  "Media": [
+    {
+      "Id": "vc9696484-8021-2fd5-eec6-ca3c8f78ad33",
+      "Src": "eC4MpafC6Rk",
+      "Caption": "Examples mod (TUG 0.8.9)",
+      "$$hashKey": "object:175"
+    }
+  ],
   "Icon": "http://tugfiles.nerdkingdom.com/www/img/tug-logo.png",
   "WebPage": {
     "HeaderMedia": [
       "v77e82f9c-3e05-113f-b422-b75a963a9b5d"
     ],
     "DetailMedia": [
-      "i594ac48a-47dc-3e9a-15f1-64c7bd8b8f73"
+      "vc9696484-8021-2fd5-eec6-ca3c8f78ad33"
     ],
     "DetailHidden": false,
     "Sections": [
@@ -39,11 +47,13 @@
         "Content": [
           {
             "Type": "Paragraph",
-            "Value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus arcu at dui congue iaculis. Morbi placerat lorem laoreet sem elementum, vel laoreet sem ultricies. Cras aliquam, libero molestie vehicula vulputate, dui est condimentum nisi, eget sodales erat sem sit amet lectus. Donec nec imperdiet felis, porttitor sollicitudin nulla. Donec ac vestibulum ligula. Nam cursus tristique massa, in tempus elit molestie a. Suspendisse metus dolor, cursus malesuada eros id, convallis bibendum magna. Nullam laoreet est ante, id ornare ante finibus non."
+            "Value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus arcu at dui congue iaculis. Morbi placerat lorem laoreet sem elementum, vel laoreet sem ultricies. Cras aliquam, libero molestie vehicula vulputate, dui est condimentum nisi, eget sodales erat sem sit amet lectus. Donec nec imperdiet felis, porttitor sollicitudin nulla. Donec ac vestibulum ligula. Nam cursus tristique massa, in tempus elit molestie a. Suspendisse metus dolor, cursus malesuada eros id, convallis bibendum magna. Nullam laoreet est ante, id ornare ante finibus non.",
+            "$$hashKey": "object:95"
           },
           {
             "Type": "Paragraph",
-            "Value": "Etiam eget tincidunt nulla. Proin auctor iaculis mauris, vitae sollicitudin velit. Morbi et odio lorem. Donec in nisi a erat pellentesque porttitor. Nam risus neque, sagittis eget urna a, efficitur vulputate nibh. Duis et sem eu leo condimentum dictum. Mauris a gravida dui. Donec pretium tortor ut pellentesque pharetra. Quisque posuere aliquet massa eu ornare. Vivamus tincidunt massa ac erat commodo tempus. Nunc a dui sed nisl cursus tincidunt ac ut mauris. Nulla elementum non lectus sit amet fermentum. Nunc ac velit et orci vestibulum pharetra. Nullam nec enim eleifend, dignissim quam vel, tincidunt tellus. Donec vel commodo augue."
+            "Value": "Etiam eget tincidunt nulla. Proin auctor iaculis mauris, vitae sollicitudin velit. Morbi et odio lorem. Donec in nisi a erat pellentesque porttitor. Nam risus neque, sagittis eget urna a, efficitur vulputate nibh. Duis et sem eu leo condimentum dictum. Mauris a gravida dui. Donec pretium tortor ut pellentesque pharetra. Quisque posuere aliquet massa eu ornare. Vivamus tincidunt massa ac erat commodo tempus. Nunc a dui sed nisl cursus tincidunt ac ut mauris. Nulla elementum non lectus sit amet fermentum. Nunc ac velit et orci vestibulum pharetra. Nullam nec enim eleifend, dignissim quam vel, tincidunt tellus. Donec vel commodo augue.",
+            "$$hashKey": "object:96"
           }
         ]
       },
@@ -63,7 +73,8 @@
               "Black Shovel Head",
               "Black Hoe Head",
               "Black Knife Blade"
-            ]
+            ],
+            "$$hashKey": "object:99"
           },
           {
             "Type": "List",
@@ -75,7 +86,8 @@
               "Black Cap",
               "Black Tunic",
               "Black Kneepads"
-            ]
+            ],
+            "$$hashKey": "object:100"
           },
           {
             "Type": "List",
@@ -89,7 +101,8 @@
               "Black Shovel",
               "Black Hoe",
               "Black Knife"
-            ]
+            ],
+            "$$hashKey": "object:101"
           },
           {
             "Type": "List",
@@ -103,7 +116,8 @@
               "Ruby Pebbles",
               "Sapphire Pebbles",
               "Topaz Pebbles"
-            ]
+            ],
+            "$$hashKey": "object:102"
           },
           {
             "Type": "List",
@@ -117,13 +131,15 @@
               "Ruby Pebble Projectile",
               "Sapphire Pebble Projectile",
               "Topaz Pebble Projectile"
-            ]
+            ],
+            "$$hashKey": "object:103"
           },
           {
             "Type": "List",
             "Items": [
               "Test Gear1"
-            ]
+            ],
+            "$$hashKey": "object:104"
           }
         ],
         "Background": "rgba(255,255,255,.4"
@@ -145,7 +161,8 @@
         "Color": "#E1E1E1",
         "Text": "#333333",
         "Background": "url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAATElEQVQYV2N8+e7jfwYoEBfiZ4SxYTRMnhFZIUgSl2IMhbgUg61CNxWbYribCClGcTw+xTh9iex7kAcxFOJyM9jX+MIPZjI8eAgpBgAi7zbuVcN9gQAAAABJRU5ErkJggg==)"
-      }
+      },
+      "$$hashKey": "object:59"
     }
   },
   "Script": {
