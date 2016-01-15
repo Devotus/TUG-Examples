@@ -47,8 +47,13 @@
         "Content": [
           {
             "Type": "Paragraph",
-            "Value": "This is an example mod. It contains custom objects, tools, weapons and gear.",
+            "Value": "This is an example mod. It contains custom objects, tools, weapons, projectiles and gear.",
             "$$hashKey": "object:95"
+          },
+          {
+            "Type": "Paragraph",
+            "Value": "This mod uses Black Rock (hardest item to obtain in vanilla TUG) as the main ingredient.",
+            "$$hashKey": "object:245"
           }
         ]
       },
